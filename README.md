@@ -100,4 +100,4 @@ The script runs in five stages.
 
 **Script runs but CSV is empty.** Verify the account has permission to read phone assignments. Try running `Get-CsPhoneNumberAssignment -Top 10` manually to confirm.
 
-**Slow performance on large tenants.** Increase `PageSize` (up to the cmdlet's maximum, typically 999) to reduce the number of round trips.
+**Slow performance on large tenants.** Increase `PageSize` (up to the cmdlet's maximum, typically 500) to reduce the number of round trips.
